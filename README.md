@@ -25,3 +25,16 @@ Although python works great in this situation, joining these kinds of applicatio
 
 # Special Thanks
 I was able to make and understand this template thanks to the following sites. The first is a [blog by eyong kevin](https://itnext.io/a-template-for-creating-a-full-stack-web-application-with-flask-npm-webpack-and-reactjs-be2294b111bd) about the same structure and a fairly good general explaination, and the second is a [video by Traversy Media](https://www.youtube.com/watch?v=deyxI-6C2u4) (youtuber) which has a great video about react, babel and webpack which helped out a lot.
+
+
+
+Server:
+python run.py
+
+Client: 
+cd templates/static
+export NODE_OPTIONS=--openssl-legacy-provider
+npm run start
+
+Prod:
+npm run build
