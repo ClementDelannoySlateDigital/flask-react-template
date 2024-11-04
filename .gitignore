@@ -5,3 +5,5 @@ templates/static/node_modules
 bundle.js
 bundle.js.LICENSE.txt
 templates/public/index.html
+
+venv
